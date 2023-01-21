@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-div {
+    /* background-image: url("./../Images/Back_down.png"); */
+    /* background-image: linear-gradient(to bottom, #000000, #00000077, transparent, transparent, #00000077, transparent, #00000077), url("./../Images/Back_down.png"); */
+    background-image: linear-gradient(to bottom, #000000, #00000077, #00000077, #00000077, #00000077, #00000077, #00000077), url("./../Images/Back_down.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.top-nav {
+    position: sticky !important;
+    top: 0 !important;
+    /* background-color: black; */
+}
+
+.nav-color {
+    color: white !important;
+    font-size: 20px;
+}
+
+.nav-item-list>a:hover {
+    /* color: green !important; */
+    color: teal !important;
+}
+
+.nav-item-list:not(.active) a:focus {
+    color: teal;
+    border-bottom: 2px solid white;
+}
+
+
+.top-main .name {
+    font-size: 90px !important;
+}
+
+.top-main .tech {
+    font-size: 50px !important;
+}
+
+.top-main .main-intro {
+    font-size: 25px;
+}
+
+.know-more {
+    background-color: teal;
+    color: white;
+}
+
+
+/* About Me */
+
+.about-back {
+    background-image: url("./../Images/about_back.jpg");
+}
+
+#aboutmepara {
+    background-color: lightgray;
+}
+
+.aboutDetail {
+    color: #747474;
+    line-height: 1.8rem;
+    font-size: 18px;
+}
+
+.nav.nav-pills {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tabNav {
+    color: white;
+}
+
+.tabNav:focus,
+.tabNav.active {
+    /* background-color: green !important; */
+    /* background-color: rgba(36, 155, 15, 0.7) !important; */
+    /* background-color: rgba(0, 128, 128, 0.7) !important; */
+    background-color: teal !important;
+    color: white !important;
+}
+
+.border-bott-card {
+    border-radius: 10% !important;
+    border-bottom: 15px solid gray !important;
+}
+
+.tab-bg {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background: hsla(0, 0%, 100%, 0.2); */
+    border-radius: 20px;
+}
+
+/* .my-profile {
+    width: 100%;
+    height: 100%;
+} */

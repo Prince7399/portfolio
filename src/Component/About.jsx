@@ -6,15 +6,15 @@ const About = () => {
         <>
             <section className='about-back'>
                 <div className='container py-5 mt-5' id="about">
-                    <div className="row  mx-lg-5">
+                    <div className="row mx-lg-5">
                         <div className="col-12 col-md-6 px-xl-5">
 
                             <img src={profile} className="img-fluid my-profile" alt="" />
 
                         </div>
-                        <div className="col-12 col-md-6 pt-md-5 px-md-1 px-lg-5">
+                        <div className="col-12 col-md-6 pt-3 pt-md-5 px-md-1 px-lg-5">
                             <p id="aboutmepara" className='d-inline p-2'>About Me</p>
-                            <h3 className='mt-4'><b>React Js Web Developer</b></h3>
+                            <h3 className='mt-4 text-white'><b>React Js Web Developer</b></h3>
                             <p className="aboutDetail mt-4" >I'm ReactJs Developer and I'm very passionate and dedicated to my work. With 0.1 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
 
                             <button type="button" class="btn btn-dark py-3 px-4 mt-md-4">Download Resume</button>
@@ -44,7 +44,7 @@ const About = () => {
                                             <div class="card h-100 bg-transparent border-0 text-white border-bott-card">
 
                                                 <div class="card-body">
-                                                    <h5 class="card-title text-center">Markup/Styling Language</h5>
+                                                    <h5 class="card-title text-center skill-head">Markup/Styling Language</h5>
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div>
                                                             <i class="fa-brands fa-html5" style={{ fontSize: "60px", color: "#ED653B" }}></i>
@@ -64,7 +64,7 @@ const About = () => {
                                             <div class="card h-100 bg-transparent border-0 text-white border-bott-card">
 
                                                 <div class="card-body">
-                                                    <h5 class="card-title text-center">CSS Framework</h5>
+                                                    <h5 class="card-title text-center skill-head">CSS Framework</h5>
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div className='text-center'>
                                                             <i class="fa-brands fa-bootstrap" style={{ fontSize: "60px", color: "#AF7AC5" }}></i>
@@ -78,7 +78,7 @@ const About = () => {
                                             <div class="card h-100 bg-transparent border-0 text-white border-bott-card">
 
                                                 <div class="card-body">
-                                                    <h5 class="card-title text-center">Front-End Language</h5>
+                                                    <h5 class="card-title text-center skill-head">Front-End Language</h5>
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div className='text-center'>
                                                             <i class="fa-brands fa-square-js" style={{ fontSize: "60px", color: "#FFFF00" }}></i>
@@ -91,7 +91,7 @@ const About = () => {
                                         <div class="col">
                                             <div class="card h-100 bg-transparent border-0 text-white border-bott-card">
                                                 <div class="card-body pb-0">
-                                                    <h5 class="card-title text-center">JavaScript Framework</h5>
+                                                    <h5 class="card-title text-center skill-head">JavaScript Framework</h5>
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div className='text-center'>
                                                             <i class="fa-brands fa-react" style={{ fontSize: "60px", color: "#61DAFB" }}></i>
@@ -104,7 +104,7 @@ const About = () => {
                                         <div class="col">
                                             <div class="card h-100 bg-transparent border-0 text-white border-bott-card">
                                                 <div class="card-body  pb-0">
-                                                    <h5 class="card-title text-center">Version Control</h5>
+                                                    <h5 class="card-title text-center skill-head">Version Control</h5>
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div className='text-center'>
                                                             <i class="fa-brands fa-git-alt" style={{ fontSize: "60px", color: "#F14E32" }}></i>
@@ -119,12 +119,76 @@ const About = () => {
                             </div>
 
                             <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
-                                <div>
+                                <div className='container px-0 px-lg-4'>
+                                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                                        <div class="col">
+                                            <div class="card h-100 tab-bg text-white">
+                                                <div class="card-body ps-4 ps-lg-5 pt-4">
+                                                    <i class="fa-solid fa-book edu-logo"></i>
+                                                    <p className='mb-1 edu-p'>2015-16</p>
+                                                    <h3 class="card-title mb-1 text-white">SSC</h3>
+                                                    <p className="card-text mb-1 text-white">Percentage - 81%</p>
+                                                    <p className="edu-p">P.P.Savani Vidhyalaya</p>
 
+                                                    <i class="fa-solid fa-building-columns edu-logo"></i>
+                                                    <p className='mb-1 edu-p'>2016-18</p>
+                                                    <h3 class="card-title mb-1 text-white">HSC</h3>
+                                                    <p className="card-text mb-1 text-white">Percentage - 88%</p>
+                                                    <p className="edu-p">Mauni Ankur Vidhya Vihar</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card h-100 tab-bg">
+
+                                                <div class="card-body ps-4 ps-lg-5 pt-4">
+                                                    <i class="fa-solid fa-user-graduate edu-logo"></i>
+                                                    <p className='mb-1 edu-p'>2018-21</p>
+                                                    <h3 class="card-title mb-1 text-white">Under Graduation (Bsc.(CA & IT))</h3>
+                                                    <p className="card-text mb-1 text-white">GPA - 4.04 / 5</p>
+                                                    <p className="edu-p">K.S.School of Bussiness Management</p>
+
+                                                    <i class="fa-solid fa-user-graduate edu-logo"></i>
+                                                    <p className='mb-1 edu-p'>2021-23</p>
+                                                    <h3 class="card-title mb-1 text-white">Post Graduation (Msc.(CA & IT))</h3>
+                                                    <p className="card-text mb-1 text-white">GPA - 3.96 / 5</p>
+                                                    <p className="edu-p">K.S.School of Bussiness Management</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">Experience</div>
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                                <div className='container px-0 px-lg-4'>
+                                    <div class="row row-cols-1">
+                                        <div class="col-12 col-xl-10 mx-auto">
+                                            <div class="card h-100 tab-bg text-white">
+                                                <div class="card-body pt-4 text-center">
+                                                    <i class="fa-solid fa-laptop-code edu-logo"></i>
+                                                    <p className='mb-1 edu-p mt-2'>May 2022 - November 2022 (06 month)</p>
+                                                    <h3 class="card-title mb-1 text-white">UI Developer</h3>
+
+                                                    <p className='mb-1 edu-p mt-5'>Jan 2023 - Current</p>
+                                                    <h3 class="card-title mb-1 text-white">React Js Intern</h3>
+
+                                                    <ul className='text-start exper-ul mt-3'>
+                                                        <li>Extensive knowledge and expertise in web design and development using latest technologies.</li>
+                                                        <li>Learned how to leverage open source platforms to handle problems and errors in code in an efficient and timely manner.
+                                                        </li>
+                                                        <li>Gained hands-on experience working in a real-world IT setting alongside seasoned and experienced developers and professionals.</li>
+                                                        <li>All of the mentors provided incredibly great feedback and reviews.</li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>

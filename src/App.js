@@ -18,15 +18,15 @@ const App = () => {
       </BrowserRouter> */}
       <section className='top-div py-5'>
         <Navbar />
-        <div className="container py-5 top-main" id="top-main">
-          <div className="row py-5 px-0 mx-0">
+        <div className="container py-md-5 top-main" id="top-main">
+          <div className="row py-md-5 px-0 mx-0">
             {/* <div className="col-12 col-md-8"> */}
-            <div className="col-8 text-center mx-auto">
+            <div className="col-12 col-md-8 text-center mx-auto">
               <h1 className='text-white name pt-5'>Prince Talaviya</h1>
               <h2 className='text-white tech'>React Js Developer</h2>
               <p className='text-white main-intro pb-5'>I am a web development engineer and I use React js to develop pages. This project is a resume template that can be used as the project home page or resume page.</p>
               <div className="col-12 text-center my-auto">
-                <button type="button" class="btn know-more px-4 py-3">Know More Abut me</button>
+                <button type="button" class="btn know-more px-3 py-2 px-md-4 py-md-3">Know More About me</button>
               </div>
             </div>
             {/* <div className="col-12 col-md-4 text-center my-auto">

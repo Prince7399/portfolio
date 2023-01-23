@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 5px;
+    right: 1rem;
+    color: white;
+}
+
+.theme-color {
+    color: teal;
+}
+
+.top-nav {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.top-div {
+    /* background-image: url("./../Images/Back_down.png"); */
+    /* background-image: linear-gradient(to bottom, #000000, #00000077, transparent, transparent, #00000077, transparent, #00000077), url("./../Images/Back_down.png"); */
+    background-image: linear-gradient(to bottom, #000000, #00000077, #00000077, #00000077, #00000077, #00000077, #00000077), url("./../Images/Back_down.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 250, 250, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.top-nav {
+    position: fixed !important;
+    top: 0px !important;
+    z-index: 999;
+}
+
+.nav-color {
+    color: teal !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-item-list a:hover {
+    color: white !important;
+}
+
+/* .nav-item-list:not(.active) a:focus {
+    color: teal;
+    border-bottom: 2px solid white;
+} */
+
+.nav-item-list a.active {
+    border-bottom: 2px solid white !important;
+    color: white !important;
+}
+
+.nav-item-list a.active .my-active {
+    color: white !important;
+}
+
+
+.top-main .name {
+    font-size: 90px !important;
+}
+
+.top-main .tech {
+    font-size: 50px !important;
+}
+
+.top-main .main-intro {
+    font-size: 25px;
+}
+
+.know-more {
+    background-color: teal;
+    color: white;
+}
+
+
+
+
+/* About Me */
+
+.about-back {
+    background-image: url("./../Images/about_back.jpg");
+}
+
+#aboutmepara {
+    background-color: lightgray;
+}
+
+.aboutDetail {
+    /* color: #747474; */
+    color: #aba7a7;
+    line-height: 1.8rem;
+    font-size: 18px;
+}
+
+.nav.nav-pills {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tabNav {
+    color: white;
+}
+
+.tabNav:hover {
+    color: rgb(142, 229, 229) !important;
+}
+
+.tabNav:focus,
+.tabNav.active {
+    background-color: teal !important;
+    color: white !important;
+}
+
+.border-bott-card {
+    border-radius: 10% !important;
+    border-bottom: 15px solid gray !important;
+}
+
+.tab-bg {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.skill-head {
+    color: #d9d5d5;
+}
+
+.edu-logo {
+    color: rgb(71, 237, 237);
+    font-size: 50px;
+}
+
+.edu-p {
+    color: rgb(71, 237, 237);
+    font-size: 25px;
+}
+
+.exper-ul {
+    font-size: 20px;
+}
+
+
+.marq-img {
+    width: 200px;
+    height: 200px;
+}
+
+/* .my-profile {
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+
+
+/* Project Component */
+
+.project {
+    background: url("./../Images/project_back.png");
+}
+
+.proj-img {
+    border-radius: 20px;
+}
+
+.tech-proj-icon {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* Contact Component */
+
+.contact_bg {
+    background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
+    overflow-x: hidden;
+}
+
+.contact-mail {
+    font-size: 55px;
+    color: white;
+}
+
+.form-submit {
+    color: white;
+    background-color: #1b2735;
+    border: 2px solid teal;
+}
+
+.form-submit:hover {
+    border: 2px solid saddlebrown !important;
+    background-color: #1b2735;
+
+}
+
+button:focus.form-submit,
+button:active.form-submit {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.form-submit:focus {
+    color: #fff;
+    background-color: #1b2735;
+    border-color: saddlebrown;
+    box-shadow: none;
+}
+
+.contact-icon {
+    /* color: white; */
+    /* font-size: 30px; */
+    /* background-color: #1b2735; */
+    font-size: 25px;
+    color: #1b2735;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact-detail {
+    color: white;
+    font-size: 20px;
+    align-self: center;
+}
+
+.phone {
+    text-decoration: none !important;
+}
+
+.phone:hover {
+    color: teal;
+}
+
+
+
+
+
+
+/* Footer component */
+.footer {
+    background-color: teal;
+    height: 75px;
+    color: white;
+}
+
+
+
+@media screen and (max-width:320px) {
+    .top-main .name {
+        font-size: 50px !important;
+    }
+
+    .top-main .tech {
+        font-size: 25px !important;
+    }
+
+    .top-main .main-intro {
+        font-size: 18px;
+    }
+
+    .contact-icon {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .contact-detail {
+        font-size: 18px;
+    }
+
+    .footer h4 {
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:321px) and (max-width:450px) {
+    .top-main .name {
+        font-size: 60px !important;
+    }
+
+    .top-main .tech {
+        font-size: 30px !important;
+    }
+
+    .top-main .main-intro {
+        font-size: 20px;
+    }
+
+    .footer h4 {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:576px) {
+    .top-main .name {
+        font-size: 70px !important;
+    }
+
+    .top-main .tech {
+        font-size: 35px !important;
+    }
+
+    .top-main .main-intro {
+        font-size: 25px;
+    }
+}

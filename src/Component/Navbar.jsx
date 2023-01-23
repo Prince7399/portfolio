@@ -17,7 +17,7 @@ const Navbar = () => {
                             <ul class="navbar-nav text-white ms-auto">
                                 <li class="nav-item nav-item-list">
 
-                                    <NavLink className="nav-link nav-color" to="/"><a class="nav-link nav-color my-active" aria-current="page">Home</a></NavLink>
+                                    <NavLink className="nav-link nav-color" to="/prince-portfolio"><a class="nav-link nav-color my-active" aria-current="page">Home</a></NavLink>
                                 </li>
                                 <li class="nav-item nav-item-list">
 

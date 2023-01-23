@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.theme-color {
+    color: teal;
+}
+
 .top-div {
     /* background-image: url("./../Images/Back_down.png"); */
     /* background-image: linear-gradient(to bottom, #000000, #00000077, transparent, transparent, #00000077, transparent, #00000077), url("./../Images/Back_down.png"); */
@@ -127,10 +131,41 @@
     font-size: 20px;
 }
 
+
+.marq-img {
+    width: 200px;
+    height: 200px;
+}
+
 /* .my-profile {
     width: 100%;
     height: 100%;
 } */
+
+
+
+
+
+/* Project Component */
+
+.project {
+    background: url("./../Images/project_back.png");
+}
+
+.proj-img {
+    border-radius: 20px;
+}
+
+.tech-proj-icon {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
 
 
 

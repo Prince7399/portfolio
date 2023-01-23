@@ -14,7 +14,7 @@ const About = () => {
     return (
         <>
             <section className='about-back'>
-                <div className='container py-5 mt-5' id="about">
+                <div className='container py-5' id="about">
                     <div className="row mx-lg-5">
                         <div className="col-12 col-md-6 px-xl-5">
 
@@ -52,7 +52,7 @@ const About = () => {
                                 <div className="container">
                                     <div className="row row-cols-1 row-cols-md-3 gx-5 gy-4 px-lg-4 pb-4">
                                         <div className="col">
-                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card">
+                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card" data-aos="flip-down" data-aos-duration="700">
 
                                                 <div className="card-body">
                                                     <h5 className="card-title text-center skill-head">Markup/Styling Language</h5>
@@ -72,7 +72,7 @@ const About = () => {
                                             </div>
                                         </div>
                                         <div className="col">
-                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card">
+                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card" data-aos="flip-down" data-aos-duration="700" data-aos-delay="100">
 
                                                 <div className="card-body">
                                                     <h5 className="card-title text-center skill-head">CSS Framework</h5>
@@ -86,7 +86,7 @@ const About = () => {
                                             </div>
                                         </div>
                                         <div className="col">
-                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card">
+                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card" data-aos="flip-down" data-aos-duration="700" data-aos-delay="200">
 
                                                 <div className="card-body">
                                                     <h5 className="card-title text-center skill-head">Front-End Language</h5>
@@ -100,7 +100,7 @@ const About = () => {
                                             </div>
                                         </div>
                                         <div className="col">
-                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card">
+                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card" data-aos="flip-down" data-aos-duration="700" data-aos-delay="300">
                                                 <div className="card-body pb-0">
                                                     <h5 className="card-title text-center skill-head">JavaScript Framework</h5>
                                                     <div className="d-flex justify-content-around mt-3">
@@ -113,7 +113,7 @@ const About = () => {
                                             </div>
                                         </div>
                                         <div className="col">
-                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card">
+                                            <div className="card h-100 bg-transparent border-0 text-white border-bott-card" data-aos="flip-down" data-aos-duration="700" data-aos-delay="400">
                                                 <div className="card-body  pb-0">
                                                     <h5 className="card-title text-center skill-head">Version Control</h5>
                                                     <div className="d-flex justify-content-around mt-3">

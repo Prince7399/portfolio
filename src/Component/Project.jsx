@@ -82,9 +82,6 @@ const Project = () => {
                                                     <h3 class="card-title text-center theme-color">React Based Restaurent Website</h3>
                                                     <h3 class="card-title mt-3 text-white">Key Features</h3>
                                                     <ul className='text-white'>
-                                                        {/* <li>Incorporated all the key features of an e-commerce website in a dynamic manner.</li>
-                                                        <li>Handled all composition, color, illustration, typography, and branding.</li>
-                                                        <li>Followed best code practices while developing dynamic and reusable code.</li> */}
                                                         {
                                                             data.key.map((liVal, ind) => {
                                                                 return (
@@ -97,12 +94,6 @@ const Project = () => {
                                                     </ul>
                                                     <b className='theme-color'><u>Technology Used</u></b>
                                                     <div className="d-flex justify-content-around mt-2">
-                                                        {/* <i class="fa-brands fa-html5 tech-proj-icon"></i>
-                                                        <i class="fa-brands fa-css3-alt tech-proj-icon"></i>
-                                                        <i class="fa-brands fa-square-js tech-proj-icon"></i>
-                                                        <i class="fa-brands fa-bootstrap tech-proj-icon"></i>
-                                                        <i class="fa-brands fa-react tech-proj-icon"></i>
-                                                        <i class="fa-brands fa-git-alt tech-proj-icon"></i> */}
                                                         {
                                                             data.technology.map((icon, ind) => {
                                                                 return (

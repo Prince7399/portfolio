@@ -17,7 +17,13 @@ const Home = () => {
                             <p className='text-white main-intro pb-5' data-aos="fade-left"
                                 data-aos-anchor="#example-anchor"
                                 data-aos-offset="500"
-                                data-aos-duration="1000">I am a web development engineer and I use React js to develop pages. This project is a resume template that can be used as the project home page or resume page.</p>
+                                data-aos-duration="1000">
+                                I am a front-end web developer with 2 years of hands-on experience building responsive and dynamic web applications using React.js.
+                                I specialize in developing scalable UI components, optimizing performance, and integrating APIs to deliver seamless user experiences.
+                                My work includes projects ranging from personal portfolios to client-facing applications, focusing on clean code, reusable components,
+                                and modern development practices such as React Hooks, Context API, and state management libraries. I’m passionate about turning ideas
+                                into interactive digital solutions.
+                            </p>
                             <div className="col-12 text-center my-auto">
                                 <button type="button" className="btn know-more px-3 py-2 px-md-4 py-md-3">Know More About me</button>
                             </div>

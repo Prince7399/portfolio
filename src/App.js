@@ -19,22 +19,13 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/prince-portfolio" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/project" element={<Project />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-      {/* <i className="fa-solid fa-angles-up to-top"></i> */}
-
-
-
-      {/* <About />
-      <Project />
-      <Contact /> */}
-
-
     </>
 
   )

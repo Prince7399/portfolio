@@ -79,7 +79,7 @@ const Project = () => {
 
                                                 <div class="card-body">
                                                     <h2 class="card-title text-center theme-color">{data.title}</h2>
-                                                    <h3 class="card-title text-center theme-color">React Based Restaurent Website</h3>
+                                                    <h3 class="card-title text-center theme-color">React Based Portfolio Website</h3>
                                                     <h3 class="card-title mt-3 text-white">Key Features</h3>
                                                     <ul className='text-white'>
                                                         {/* <li>Incorporated all the key features of an e-commerce website in a dynamic manner.</li>

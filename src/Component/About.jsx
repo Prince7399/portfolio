@@ -26,9 +26,15 @@ const About = () => {
                             <h3 className='mt-4 text-white' data-aos="fade-down-left" data-aos-duration="1000"><b>React Js Web Developer</b></h3>
                             <p className="aboutDetail mt-4" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic"
-                                data-aos-duration="2000">I'm ReactJs Developer and I'm very passionate and dedicated to my work. With 0.1 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+                                data-aos-duration="2000">I'm ReactJs Developer and I'm very passionate and dedicated to my work. With 2+ years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
 
-                            <button type="button" className="btn btn-dark py-3 px-4 mt-md-4">Download Resume</button>
+                            {/* i want to add pdf file when use click on this button pdf should download */}
+                            {/* <button type="button" className="btn btn-dark py-3 px-4 mt-md-4">Download Resume</button> */}
+                            <a href="/Prince_Talaviya_Resume_1.pdf" download>
+                                <button type="button" className="btn btn-dark py-3 px-4 mt-md-4">
+                                    Download Resume
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -81,6 +87,11 @@ const About = () => {
                                                             <i className="fa-brands fa-bootstrap" style={{ fontSize: "60px", color: "#AF7AC5" }}></i>
                                                             <h5 className='text-center'>Bootstrap</h5>
                                                         </div>
+
+                                                        <div className='text-center'>
+                                                            <i className="fa-solid fa-m" style={{ fontSize: "60px", color: "#AF7AC5" }}></i>
+                                                            <h5 className='text-center'>MUI</h5>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -93,7 +104,7 @@ const About = () => {
                                                     <div className="d-flex justify-content-around mt-3">
                                                         <div className='text-center'>
                                                             <i className="fa-brands fa-square-js" style={{ fontSize: "60px", color: "#FFFF00" }}></i>
-                                                            <h5 className='text-center'>Java Script</h5>
+                                                            <h5 className='text-center'>JavaScript</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -162,7 +173,7 @@ const About = () => {
                                                     <i className="fa-solid fa-user-graduate edu-logo"></i>
                                                     <p className='mb-1 edu-p'>2021-23</p>
                                                     <h3 className="card-title mb-1 text-white">Post Graduation (Msc.(CA & IT))</h3>
-                                                    <p className="card-text mb-1 text-white">GPA - 3.96 / 5</p>
+                                                    <p className="card-text mb-1 text-white">GPA - 4.00 / 5</p>
                                                     <p className="edu-p">K.S.School of Bussiness Management</p>
                                                 </div>
                                             </div>
@@ -179,11 +190,11 @@ const About = () => {
                                             <div className="card h-100 tab-bg text-white">
                                                 <div className="card-body pt-4 text-center">
                                                     <i className="fa-solid fa-laptop-code edu-logo"></i>
-                                                    <p className='mb-1 edu-p mt-2'>May 2022 - November 2022 (06 month)</p>
-                                                    <h3 className="card-title mb-1 text-white">UI Developer</h3>
-
-                                                    <p className='mb-1 edu-p mt-5'>Jan 2023 - Current</p>
+                                                    <p className='mb-1 edu-p mt-2'>Jan 2023 - June 2023</p>
                                                     <h3 className="card-title mb-1 text-white">React Js Intern</h3>
+
+                                                    <p className='mb-1 edu-p mt-5'>Jaly 2023 - August 2025</p>
+                                                    <h3 className="card-title mb-1 text-white">React Js Developer</h3>
 
                                                     <ul className='text-start exper-ul mt-3'>
                                                         <li>Extensive knowledge and expertise in web design and development using latest technologies.</li>

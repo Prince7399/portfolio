@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    };
+
     return (
         <>
             <section className='contact_bg py-5'>
@@ -15,11 +19,11 @@ const Contact = () => {
                                 <i class="fa-regular fa-envelope contact-mail"></i>
                                 <h3 className='text-white ms-5'>Get in touch</h3>
                             </div>
-                            <form action="">
-                                <input type="text" name="" id="" placeholder='Name' className='form-control' />
-                                <input type="email" name="" id="" placeholder='Email' className='form-control mt-3' />
-                                <textarea className="form-control mt-3" placeholder="Message" rows="5"></textarea>
-                                <button type="button" class="btn btn-success mt-3 px-4 form-submit">Submit</button>
+                            <form onSubmit={handleSubmit}>
+                                <input type="text" name="name" id="name" placeholder='Name' className='form-control' />
+                                <input type="email" name="email" id="email" placeholder='Email' className='form-control mt-3' />
+                                <textarea className="form-control mt-3" name="message" placeholder="Message" rows="5"></textarea>
+                                <button type="submit" class="btn btn-success mt-3 px-4 form-submit">Submit</button>
 
                             </form>
                         </div>
@@ -31,21 +35,21 @@ const Contact = () => {
                                 </div>
                                 <div className="d-flex flex-row mt-3">
                                     <i class="fa-regular fa-envelope contact-icon"></i>
-                                    <a href="mailto: talaviyap200@gmail.com" className='ms-3 contact-detail phone'>talaviyap200@gmail.com</a>
+                                    <a href="mailto: princetalaviya2000@gmail.com" className='ms-3 contact-detail phone'>princetalaviya2000@gmail.com</a>
                                 </div>
                                 <div className="d-flex flex-row mt-3">
                                     <i class="fa-brands fa-github contact-icon"></i>
-                                    <a href="https://github.com/PrinceTcompose" className='ms-3 contact-detail phone'>github.com/PrinceTcompose</a>
+                                    <a href="https://github.com/Prince7399" className='ms-3 contact-detail phone'>github.com/Prince7399</a>
                                 </div>
                                 <div className="d-flex flex-row mt-3">
                                     {/* <i class="fa-brands fa-linkedin-in contact-icon"></i> */}
                                     <i class="fa-brands fa-linkedin contact-icon"></i>
-                                    <a href="https://www.linkedin.com/" className='ms-3 contact-detail phone'>linkedin.com/in/princetalaiya</a>
+                                    <a href="https://www.linkedin.com/in/prince-talaviya-618167211/" className='ms-3 contact-detail phone'>linkedin.com/in/princetalaiya</a>
                                 </div>
-                                <div className="d-flex flex-row mt-3">
+                                {/* <div className="d-flex flex-row mt-3">
                                     <i class="fa-solid fa-location-dot contact-icon"></i>
                                     <a href="https://www.google.co.in/maps/place/TechCompose+Solutions+Pvt.+Ltd./@23.0307876,72.545812,17z/data=!3m1!4b1!4m5!3m4!1s0x395e84edf52c7b9f:0x15cb4da8393658ae!8m2!3d23.0307876!4d72.5480007?hl=en" className='ms-3 contact-detail phone'>TechCompose Solutions,Ahmedabad</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
